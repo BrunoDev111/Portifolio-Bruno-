@@ -34,12 +34,12 @@ state: {
             }
         ],
     skills:[
-                { name: 'HTML5', level: 90 },
-                { name: 'CSS3 & Animações', level: 90 },
-                { name: 'JavaScript', level: 80 },
-                { name: 'Vue.js', level: 80 },
-                { name: 'Vuex', level: 70 },
-                { name: 'Bootstrap 5', level: 40 },
+                { name: 'HTML5', level: 70 },
+                { name: 'CSS3 & Animações', level: 70 },
+                { name: 'JavaScript', level: 50 },
+                { name: 'Vue.js', level: 60 },
+                { name: 'Vuex', level: 60 },
+                { name: 'Bootstrap 5', level: 30 },
                 { name: 'Node.js & Express', level: 20 },
                 { name: 'Firebase', level: 20 },
                 { name: 'jQuery', level: 15 },
@@ -47,7 +47,7 @@ state: {
                 { name: 'MongoDB', level: 10 },
                 { name: 'React.js', level: 10 }
             ],
-            currentFilter: 'all',
+            currentFilter: 'Todos',
             searchQuery: ''
     },
 getters: {
@@ -66,7 +66,7 @@ getters: {
         )}
 
     //filtro por tecnologia    
-    if(state.currentFilter !== 'all'){
+    if(state.currentFilter !== 'Todos'){
         filtered = filtered.filter(project =>
             project.tech.some(tech =>
                 tech.toLowerCase().includes(state.currentFilter.toLowerCase())
@@ -87,7 +87,7 @@ getters: {
         state.projects.forEach(project =>{
             project.tech.forEach(tech => techs.add(tech))
         })
-        return['all', ...Array.from(techs)]
+        return['Todos', ...Array.from(techs)]
     }
 },
 
@@ -116,7 +116,7 @@ mutations:{
     },
     // limpar filtros
     CLEAR_FILTERS(state) {
-      state.currentFilter = 'all'
+      state.currentFilter = 'Todos'
       state.searchQuery = ''
     }
 },
