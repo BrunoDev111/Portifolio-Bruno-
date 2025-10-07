@@ -28,7 +28,7 @@
       <div class="stats-grid">
         <div class="stat-card animate__animated animate__fadeInUp" style="animation-delay: 0.2s">
           <div class="stat-icon">💻</div>
-          <h3 class="stat-number">3</h3>
+          <h3 class="stat-number">4</h3>
           <p class="stat-label">Projetos Online</p>
         </div>
 
