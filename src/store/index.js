@@ -14,7 +14,7 @@ state: {
                 tech: ['Vue.js 3', 'Vuex', 'Vue Router', 'JavaScript', 'HTML5', 'CSS3', 'Animate.css'],
                 icon: '💻',
                 github: 'https://github.com/BrunoDev111/Portifolio-Bruno-',
-                demo: 'https://bruno-portifolio.netlify.app/',
+                demo: 'https://brunofeliciano-portifolio.netlify.app/',
                 featured: true // Projeto em destaque
                 },
             {
