@@ -8,7 +8,17 @@ state: {
 
     //aqui serao os projetos
     projects:[{
-                id:1,
+                id: 1,
+                title: 'Portfólio Interativo Vue.js',
+                description: 'Portfólio pessoal desenvolvido com Vue 3, Vuex para gerenciamento de estado, Vue Router para navegação SPA e Animate.css. Implementa tema dark/light, filtros dinâmicos e animações fluidas.',
+                tech: ['Vue.js 3', 'Vuex', 'Vue Router', 'JavaScript', 'HTML5', 'CSS3', 'Animate.css'],
+                icon: '💻',
+                github: 'https://github.com/BrunoDev111/Portifolio-Bruno-',
+                demo: 'https://bruno-portifolio.netlify.app/',
+                featured: true // Projeto em destaque
+                },
+            {
+                id:2,
                 title:'Baudelare',
                 description: 'E-commerce de bolsas femininas com design elegante e minimalista.Catálogo de produtos com detalhes e preços.',
                 tech:['HTML5', 'CSS3', 'JavaScript', 'Design Responsivo'],
@@ -16,7 +26,7 @@ state: {
                 github:'https://github.com/seu-usuario/baudelare',
                 demo:'https://baudelare.com/'
             },{
-                id:2,
+                id:3,
                 title:'Fashionni',
                 description: 'Landing page de moda com coleções sazonais. Interface moderna e atrativa para e-commerce de moda.',
                 tech:['HTML5', 'CSS3', 'JavaScript',],
@@ -24,14 +34,15 @@ state: {
                 github:'https://github.com/seu-usuario/fashionni',
                 demo:'https://fashionni.netlify.app/'
             },{
-                id: 3,
+                id: 4,
                 title: 'Rodizio Organistas',
                 description: 'Sistema de organização de rodízio de organistas para igreja. Calendário interativo com agenda de julho a dezembro 2025.',
                 tech: ['HTML5', 'CSS3', 'JavaScript'],
                 icon: '🎹',
                 github: 'https://github.com/seu-usuario/organistas',
                 demo: 'https://organistas-guarani.netlify.app/'
-            }
+            },
+           
         ],
     skills:[
                 { name: 'HTML5', level: 70 },
