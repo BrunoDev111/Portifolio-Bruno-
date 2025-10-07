@@ -65,14 +65,13 @@
 
 
 <script>
-export default{
-    name:'Hero',
-    methods:{
-         downloadCV() {
-      alert('branch feita Função de download do CV!\n\nAqui você pode:\n1. Fazer link direto para o PDF do seu currículo\n2. Gerar o download automaticamente\n3. Abrir em nova aba')
-      // window.open('caminho/para/seu/curriculo.pdf', '_blank') 
-    }
+export default {
+    name: 'Hero',
+    methods: {
+        downloadCV() {
+    window.open('https://curriculovirtualbruno.netlify.app/', '_blank');
 }
+    }
 }
 </script>
 
