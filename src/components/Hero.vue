@@ -54,7 +54,7 @@
                  </div>
                          <!-- Imagem à direita -->
                  <div class="hero-image animate__animated animate__fadeInRight">
-                    <img    src="../assets/img/bruno1.png" 
+                    <img    src="../assets/img/bruno3.png" 
                             alt="Bruno Feliciano" 
                             class="profile-pic">
                  </div>
