@@ -9,7 +9,7 @@ state: {
     //aqui serao os projetos
     projects:[{
                 id: 1,
-                title: 'Portfólio Interativo Vue.js',
+                title: 'Portfólio Interativo Vue.js (Bruno Feliciano)',
                 description: 'Portfólio pessoal desenvolvido com Vue 3, Vuex para gerenciamento de estado, Vue Router para navegação SPA e Animate.css. Implementa tema dark/light, filtros dinâmicos e animações fluidas.',
                 tech: ['Vue.js 3', 'Vuex', 'Vue Router', 'JavaScript', 'HTML5', 'CSS3', 'Animate.css'],
                 icon: '💻',
@@ -42,6 +42,16 @@ state: {
                 github: 'https://github.com/seu-usuario/organistas',
                 demo: 'https://organistas-guarani.netlify.app/'
             },
+            {
+                id: 5,
+                title: 'Portfólio Interativo Vue.js (Rafael Rezende)',
+                description: 'Portfólio profissional desenvolvido com Vue 3, Vue Router e Animate.css. Apresenta experiência como Consultor SAP Basis, certificações técnicas e competências em infraestrutura SAP. Interface moderna com navegação fluida e animações suaves.',
+                tech: ['Vue.js 3', 'Vuex', 'Vue Router', 'JavaScript', 'HTML5', 'CSS3', 'Animate.css'],
+                icon: '💻',
+                github: 'https://github.com/BrunoDev111/Rafeal-Portifolio',
+                demo: 'https://rafaelrezende-portifolio.netlify.app/',
+                featured: true // Projeto em destaque
+                },
            
         ],
     skills:[
