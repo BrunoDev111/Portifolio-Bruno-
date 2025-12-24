@@ -8,11 +8,11 @@
                     <h1 class="name">Bruno Feliciano</h1>
                     <div class="title">
                         <span class="subtitle">Desenvolvedor</span>
-                        <span class="highlight">Vue.js</span>
+                        <span class="highlight">Full-Stack</span>
                     </div>
                     <p class="description">
                         Desenvolvedor Jr focado em criar experiências web modernas e interativas 
-            com Vue.js e tecnologias front-end
+            com tecnologias front-end e back-end
                     </p>
                     <div class="cta-buttons">
                         <router-link to="/projetos" class="btn btn-primary">
